@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+  --accent-color: #d88686;
+  --text-color: #ffffff;
+  --input-bg: rgba(255, 255, 255, 0.1);
+  --input-hover: rgba(255, 255, 255, 0.15);
+  --shadow-color: rgba(0, 0, 0, 0.4);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12pt;
+  color: var(--text-color);
+}
+
+body {
+  min-height: 100vh;
+  background: url('../images/gnai2.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.wrapper {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  width: min(450px, 100%);
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px var(--shadow-color);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  animation: pageEnter 0.8s ease-out forwards;
+}
+
+@keyframes pageEnter {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form div {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  background: var(--input-bg);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+form div:hover {
+  background: var(--input-hover);
+  transform: translateY(-2px);
+}
+
+form label {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent-color);
+}
+
+form label svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+form input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 15px;
+  background: transparent;
+  color: var(--text-color);
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+form input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+form button {
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+form button:active {
+  transform: translateY(1px);
+}
+
+.oauth-section {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.oauth-section p {
+  color: var(--text-color);
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.g_id_signin {
+  display: flex !important;
+  justify-content: center !important;
+  margin: 0 auto !important;
+}
+
+p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    padding: 30px 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+}

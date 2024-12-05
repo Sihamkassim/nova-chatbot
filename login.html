@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/x-icon" href="images/nova.jpg">
+  <title>Login - Nova Chatbot</title>
+  <link rel="stylesheet" href="css/login.css">
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script src="login.js" defer></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1>Welcome Back!</h1>
+    <p id="login-error-message" style="color: red;"></p>
+    <form id="login-form">
+      <div>
+        <label for="login-email">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+            <path
+              d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+          </svg>
+        </label>
+        <input type="email" name="email" id="login-email" placeholder="Email" required>
+      </div>
+      <div>
+        <label for="login-password">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 -960" width="24">
+            <path
+              d="M240-80q-33 0-56.5-23.5T160-160v-400q0-33 23.5-56.5T240-640h40v-80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720v80h40q33 0 56.5 23.5T800-560v400q0 33-23.5 56.5T720-80H240Zm240-200q33 0 56.5-23.5T560-360q0-33-23.5-56.5T480-440q-33 0-56.5 23.5T400-360q0 33 23.5 56.5T480-280ZM360-640h240v-80q0-50-35-85t-85-35q-50 0-85 35t-35 85v80Z" />
+          </svg>
+        </label>
+        <input type="password" name="password" id="login-password" placeholder="Password" required>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+
+    <div class="oauth-section">
+      <p>Or sign in with:</p>
+      <div id="g_id_onload" data-client_id="984004975629-rh051nbv4hauq0qk347n3ikbk303sg6o.apps.googleusercontent.com"
+        data-context="signin" data-callback="handleGoogleSignIn" data-auto_prompt="false">
+      </div>
+      <div class="g_id_signin" data-type="standard" data-size="large" data-theme="outline" data-text="sign_in_with"
+        data-shape="rectangular" data-logo_alignment="left">
+      </div>
+    </div>
+    <p>New here? <a href="signup.html">Create an Account</a></p>
+  </div>
+</body>
+
+</html>

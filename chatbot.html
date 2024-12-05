@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/nova.jpg">
+    <title>Nova Chatbot</title>
+    <link rel="stylesheet" href="css/chatbot.css">
+    <script src="chat-history.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <button class="exit-button" onclick="window.location.href='../index.html';">
+        <i class="fas fa-arrow-left"></i>
+    </button>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <img src="images/nova.jpg" alt="Nova" class="chat-header-image">
+            <h1 class="chat-title">Hey, How can I assist you?</h1>
+        </div>
+        <div class="chat-messages" id="chat-messages"></div>
+        <div class="chat-input-container">
+            <button class="new-message-icon" onclick="startNewChat();" title="Start New Chat">
+                <i class="fas fa-feather-alt"></i>
+            </button>
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-button">
+                <span class="send-text">Send</span>
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="header-icons">
+        <div class="right-icons">
+            <button class="history-icon" onclick="displayChatHistory();" title="View History">
+                <i class="fas fa-clock"></i>
+            </button>
+        </div>
+    </div>
+
+    <div id="history-modal" class="history-modal">
+        <div class="history-modal-content">
+            <span class="close-history" onclick="closeHistory()">&times;</span>
+            <h2>Chat History</h2>
+            <div id="history-container">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
