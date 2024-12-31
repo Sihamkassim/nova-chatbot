@@ -1,4 +1,4 @@
-const CLIENT_ID = '984004975629-rh051nbv4hauq0qk347n3ikbk303sg6o.apps.googleusercontent.com'; 
+const CLIENT_ID = 'client_id'; 
 const REDIRECT_URI = window.location.origin + '/chatbot.html';
 
 const baseUrl = window.location.origin;
