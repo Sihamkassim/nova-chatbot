@@ -16,19 +16,21 @@ Icons: Font Awesome for a sleek UI
 Backend: (Optional) Node.js/Flask integration
 
 🎨 How to Use
-
 Start the Chat: Type your message and hit "Send."
 Check History: Use the clock icon to view your chat history.
 Restart: Start a new conversation with the feather icon.
 Exit: Click the arrow to return to the main page.
+    The landing page 
+![image](https://github.com/user-attachments/assets/168b3444-aebd-4d85-995e-ed922136f240)
+    The signup page 
+ ![image](https://github.com/user-attachments/assets/84a4a9aa-0ce4-46d7-a9b8-6f45d9a4ca78)
+    The login page 
+ ![image](https://github.com/user-attachments/assets/d2d4d20f-9331-4791-a525-e1de63e9cc20)
+    The main page 
+![image](https://github.com/user-attachments/assets/bcc4f190-a035-4d46-872f-112f6c74fe85)
+ 
+     
+    
 
-💡 Why Nova?
-
-Nova isn’t just a chatbot; it’s your digital friend, designed to simplify tasks, provide assistance, and brighten your day. 🌈
-
-🧑‍💻 Contribute
-We’re always evolving! Have ideas? Fork this repository, submit pull requests, or report issues.
-
-Stay curious and keep chatting with Nova! 💖
 
 
