@@ -5,20 +5,27 @@ Welcome to Nova Chatbot, your AI-powered conversational companion! 💬 Designed
 🚀 Features
 
 Dynamic Conversations: Engage in real-time chats with an intuitive interface.
+
 Chat History: View and revisit your previous conversations anytime.
+
 Personalized Experience: Easy-to-use features tailored to meet your needs.
+
 Quick Navigation: Exit, restart, or explore with simple, accessible buttons.
 
 🛠️ Tech Stack
 
 Frontend: HTML, CSS, JavaScript
+
 Icons: Font Awesome for a sleek UI
-Backend: (Optional) Node.js/Flask integration
+
 
 🎨 How to Use
 Start the Chat: Type your message and hit "Send."
+
 Check History: Use the clock icon to view your chat history.
+
 Restart: Start a new conversation with the feather icon.
+
 Exit: Click the arrow to return to the main page.
     The landing page 
 ![image](https://github.com/user-attachments/assets/168b3444-aebd-4d85-995e-ed922136f240)
