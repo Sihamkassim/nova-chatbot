@@ -27,7 +27,8 @@ Exit: Click the arrow to return to the main page.
     The login page 
  ![image](https://github.com/user-attachments/assets/d2d4d20f-9331-4791-a525-e1de63e9cc20)
     The main page 
-![image](https://github.com/user-attachments/assets/bcc4f190-a035-4d46-872f-112f6c74fe85)
+![Screenshot 2025-01-16 225617](https://github.com/user-attachments/assets/134d8b90-399c-4655-9813-a0ad11844870)
+
  
      
     
